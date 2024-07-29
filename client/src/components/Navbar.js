@@ -7,9 +7,10 @@ function Navbar() {
       <div className="logo">
         <img src={logo} alt="Pizza logo" />
         <h1>The Pizza Society</h1>
+        <h1></h1>
       </div>
       <nav>
-        <Link to="/">Home</Link>
+        <Link to="/">Home </Link>
       </nav>
     </header>
   );
